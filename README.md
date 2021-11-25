@@ -25,7 +25,7 @@ Toda la información aquí utilizada sale de Wikipedia y Marvel.com
     Pruebas varargs
     
     //Definición del método
-      static void vaTest(int ... v) {
+      static void vaTest(int ... v) {        // o en el caso de las facturas: vaTest (Factura ... v)
     System.out.println("Número de args: " + v.length);
     System.out.println("Contiene: ");
 
@@ -36,6 +36,6 @@ Toda la información aquí utilizada sale de Wikipedia y Marvel.com
   }
   // LLamada (ejemplo) al método
   
-    vaTest(10, 10);
+    vaTest(10, 10);                          // o en el caso de las facturas: vaTest (factura1, factura2, factura3)
     
     
