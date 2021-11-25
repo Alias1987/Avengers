@@ -21,7 +21,8 @@ Toda la información aquí utilizada sale de Wikipedia y Marvel.com
       .mapToInt(v -> v.intValue())
       .forEach((n) -> System.out.println(n));
 
-    **Pruebas varargs**
+
+    Pruebas varargs
     
     //Definición del método
       static void vaTest(int ... v) {
@@ -34,6 +35,7 @@ Toda la información aquí utilizada sale de Wikipedia y Marvel.com
     System.out.println();
   }
   // LLamada (ejemplo) al método
+  
     vaTest(10, 10);
     
     
